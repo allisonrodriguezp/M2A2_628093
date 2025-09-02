@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <Title>Formulario</Title>
+
+    </head>
+    
+    <body>
+    <h1>Formulario: Registro Torneo para Videojuegos</h1>
+    </body>
+
+    <form>
+
+    <table border="1">
+
+        <tr>
+            <th> Nombre del jugador: </th>
+            <th> 
+                <input type="text"
+                placeholder="Escribe tu nombre"
+                minlength="3"
+                maxlength="15"
+                required>
+
+            </th>   
+        </tr>
+
+        
+        <tr>
+            <th> Correo electrónico: </th>
+            <th>
+                <input type="email"
+                placeholder="ejemplo@correo.com"
+                required>
+            
+            </th>
+        </tr>
+
+        <tr>
+            <th>Edad: </th>
+            <th>
+                <input type="number"
+                placeholder="Num"
+                min="12"
+                max="40"
+                required>
+
+            </th>
+        </tr>
+
+        <tr>
+            <th>Nickname:</th>
+            <th>
+                <input type="text"
+                placeholder="Nickname"
+                pattern="[A-Za-z0-9]+{4,10}">
+            </th>
+        </tr>
+
+        <tr>
+            <th> Categoría: </th>
+            <th>
+                <input type="radio"
+                name="categoria"
+                value="Principante"
+                required>
+                Principiante
+                <input type="radio"
+                name="categoria"
+                value="Intermedio"
+                required>
+                Intermedio
+                <input type="radio"
+                name="categoria"
+                value="Experto"
+                required>Experto
+    
+            </th>
+        </tr>
+
+        <tr>
+            <th>Juegos favoritos:</th>
+            <th>
+                <input type="checkbox"
+                id="checkbox">FIFA
+                <input type="checkbox"
+                id="LoL">LoL
+                <input type="checkbox"
+                id="Minecraft">Minecraft
+                
+            </th>
+        </tr>
+
+        <tr>
+            <th>Fecha de inscripción:</th>
+            <th>
+                <input type="date"
+                min="2025-01-01"
+                max="2025-12-31">
+            </th>
+        </tr>
+
+        <tr>
+            
+            <th colspan="2">
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+            </th>
+
+
+
+        </tr>
+
+    </table>
+</form>
+
+    
+
+    
+      
+
+
+        
